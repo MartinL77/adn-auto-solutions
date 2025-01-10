@@ -26,7 +26,7 @@ const NavBar = () => {
   return (
     <>
       <StyledNavList>
-        <StyledLogo src="/adn-logo.jpg" alt="Company Logo" />
+        <StyledLogo src={`${import.meta.env.BASE_URL}adn-logo.jpg`} alt="Company Logo" />
         {renderNavItems()}
       </StyledNavList>
 

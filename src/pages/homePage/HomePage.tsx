@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <HeroSection>
       <StyledVideo autoPlay loop muted playsInline>
-        <source src="/typer.mp4" type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}typer.mp4`} type="video/mp4" />
         Your browser does not support the video tag.
       </StyledVideo>
       <Content>
