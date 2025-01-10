@@ -31,7 +31,7 @@ const NavBar = () => {
       </StyledNavList>
 
       <MobileWrapper>
-        <StyledLogo src="/adn-logo.jpg" alt="Company Logo" />
+        <StyledLogo src={`${import.meta.env.BASE_URL}adn-logo.jpg`} alt="Company Logo" />
         <HamburgerButton onClick={toggleMenu}>
           <div className={`bar ${isMenuOpen ? 'bar-x' : ''}`} />
           <div className={`bar ${isMenuOpen ? 'bar-x' : ''}`} />
