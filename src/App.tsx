@@ -3,8 +3,8 @@ import './App.css'
 import NavBar from './components/navBar/NavBar'
 import HomePage from './pages/homePage/HomePage'
 import DealerPage from './pages/dealerPage/DealerPage'
-import AboutPage from './pages/aboutPage/aboutPage'
-import ContactPage from './pages/contactPage/contactPage'
+import AboutPage from './pages/aboutPage/AboutPage'
+import ContactPage from './pages/contactPage/ContactPage'
 
 function App() {
 
