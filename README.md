@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+
+# Credits
+Tachometer RPM Gauge by Ricky Esquivel https://www.pexels.com/video/tachometer-rpm-gauge-3752531/
+
+
