@@ -6,10 +6,10 @@ export const StyledNavList = styled.ul`
   left: 0;
   width: 100%;
   display: none;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 40px 20px;
+  padding: 40px 60px;
   background-color: rgba(0, 0, 0, 0.5); 
   z-index: 1000; 
 
@@ -17,23 +17,8 @@ export const StyledNavList = styled.ul`
     pointer-events: auto; 
   }
 
-  @media (min-width: 321px) {
-  }
-
   @media (min-width: 768px) {
     display: flex;
-  }
-
-  @media (min-width: 768px) {
-  }
-
-  @media (min-width: 1024px) {
-  }
-
-  @media (min-width: 1280px) {
-  }
-
-  @media (min-width: 1536px) {
   }
 `;
 
@@ -64,6 +49,10 @@ export const StyledLogo = styled.img`
   border-radius: 50%;
 `;
 
+export const StyledNavItemsWrapper = styled.div`
+  display: flex;
+`
+
 export const MobileWrapper = styled.div`
   position: absolute;
   display: flex;
@@ -71,32 +60,13 @@ export const MobileWrapper = styled.div`
   width: 100%;
   padding: 30px;
   align-items: center;
-
-
-  @media (min-width: 321px) {
-  }
-
+  
   @media (min-width: 768px) {
     display: none;
-  }
-
-  @media (min-width: 768px) {
-  }
-
-  @media (min-width: 1024px) {
-  }
-
-  @media (min-width: 1280px) {
-  }
-
-  @media (min-width: 1536px) {
   }
 `;
 
 export const HamburgerButton = styled.div`
-  /* position: absolute;
-  right: 0;
-  margin: 30px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -136,18 +106,6 @@ export const HamburgerButton = styled.div`
   @media (min-width: 768px) {
     display: none;
   }
-
-  @media (min-width: 768px) {
-  }
-
-  @media (min-width: 1024px) {
-  }
-
-  @media (min-width: 1280px) {
-  }
-
-  @media (min-width: 1536px) {
-  }
 `;
 
 export const Menu = styled.div`
@@ -169,23 +127,7 @@ export const Menu = styled.div`
     margin: 10px 0;
   }
 
-  @media (min-width: 321px) {
-    
-  }
-
   @media (min-width: 768px) {
     display: none;
-  }
-
-  @media (min-width: 768px) {
-  }
-
-  @media (min-width: 1024px) {
-  }
-
-  @media (min-width: 1280px) {
-  }
-
-  @media (min-width: 1536px) {
   }
 `;

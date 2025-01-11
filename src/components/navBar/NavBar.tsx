@@ -1,11 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { StyledLogo, StyledNavItem, StyledNavList, HamburgerButton, Menu, MobileWrapper } from "./navBar.styled";
+import { StyledLogo, StyledNavItem, StyledNavList, HamburgerButton, Menu, MobileWrapper, StyledNavItemsWrapper } from "./navBar.styled";
 
-const navLinks = [
+export const navLinks = [
   { to: "/", label: "Home" },
   { to: "/dealer", label: "ADN Auto Dealership" },
-  { to: "/about", label: "About Us" },
   { to: "/contact", label: "Contact Us" },
 ];
 
@@ -27,7 +26,9 @@ const NavBar = () => {
     <>
       <StyledNavList>
         <StyledLogo src={`${import.meta.env.BASE_URL}adn-logo.jpg`} alt="Company Logo" />
-        {renderNavItems()}
+        <StyledNavItemsWrapper>
+          {renderNavItems()}
+        </StyledNavItemsWrapper>
       </StyledNavList>
 
       <MobileWrapper>

@@ -3,8 +3,8 @@ import './App.css'
 import NavBar from './components/navBar/NavBar'
 import HomePage from './pages/homePage/HomePage'
 import DealerPage from './pages/dealerPage/DealerPage'
-import AboutPage from './pages/aboutPage/AboutPage'
 import ContactPage from './pages/contactPage/ContactPage'
+import Footer from './components/footer/Footer'
 
 function App() {
 
@@ -14,9 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/dealer" element={<DealerPage />} />
-        <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer />
     </>           
   )
 }
